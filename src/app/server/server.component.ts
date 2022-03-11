@@ -9,6 +9,9 @@ import { inject } from "@angular/core/testing";
 export class ServerComponent{
     id: number = 0;
     serverStatus: string;
+   
+
+
     constructor() {
         this.id = 10;
         this.serverStatus = (Math.random()) > 0.5 ? "offline" : "online";
